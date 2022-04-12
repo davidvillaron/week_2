@@ -1,0 +1,23 @@
+img {
+    height: 150px;
+}
+.description {
+    font-size: 20px;
+}
+
+#workout-time {
+    font-size: 20px;
+}
+
+ul.equipment {
+    list-style: square;
+}
+.time {
+    color:gray;
+}
+.external-link {
+    color:seagreen
+}
+body {
+    font-family: Helvetica, sans-serif;
+}

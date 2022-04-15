@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Montserrat:ital,wght@1,300&display=swap');
+
+body{
+    margin: 0;
+    background-image: url(/images/pexels-juan-salamanca-61143.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.alabama-logo {
+    width: 125px;
+    height: 125px;
+}
+
+.banner-nav {
+    background-color: #9e1b33;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.nav-links-container{
+    width:60%;
+}
+
+nav {
+    position: relative;
+    margin-top: 08%;    
+}
+
+ul {
+    list-style-type:none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+a {
+    color: rgb(255, 196, 196);
+    font-family: 'Limelight', cursive;
+    font-size: 1.3em;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.section-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.section-1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    color:#9E1B32;
+    margin: 10px 180px;
+    text-align: center;
+}
+
+table, th {
+    font-size: 20px;
+    font-weight: 400;
+    border: 2px solid rgb(68, 64, 64);
+    background-color: #9e1b335a;
+    border-collapse: collapse;
+    width: 800px;
+    text-align: left;
+    color: white;
+ }
+
+tbody {
+    vertical-align:left;
+}
+
+tr {
+    height:30px;
+}
+
+.schedule-table {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    border-collapse: collapse;
+    text-align: left;
+
+}
+
+td {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    color: rgb(255, 221, 25);
+}
+
+.date {
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(222, 152, 21);
+}
+
+.bama-logo {
+    width: 25px;
+    height: 25px;
+    color:red
+}
+
+#sd-logo {
+    width: 25px;
+    height: 25px;
+}
+
+.houston-logo {
+    width: 25px;
+    height: 25px;
+}
+
+.tennessee-logo {
+    width: 25px;
+    height: 25px;
+}
+
+.georgia-logo {
+    width: 25px;
+    height: 25px;
+}
+
+.troy-logo {
+    width: 25px;
+    height: 25px;
+}
+
+.tulane-logo {
+    width: 25px;
+    height: 25px;
+}
+.last-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 200px;
+    margin-top: 50px;
+    background-color: #9E1B32;
+}
+
+.alaba-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.alabama-paragraph {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(77, 26, 26);
+}
+
+.terms-service {
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.box-2, .box-1 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+}
+
+.box-1:hover, .box-1:active, .box-2:hover, .box-2:active {
+    background-color: rgb(96, 27, 16);
+    font-size: 25px;
+}
